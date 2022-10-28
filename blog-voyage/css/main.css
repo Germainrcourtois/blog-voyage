@@ -1,0 +1,170 @@
+body
+{
+  margin: 0px;
+  font-family: 'FFMetaWebBold', 'PT Sans', sans-serif;
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-content: space-around;
+  align-items: center;
+}
+.head-logo {
+  /*background-image: url("../im/blogvoyages-logo.png");*/
+}
+.head-menu{
+}
+.ul .li{
+  list-style: none;
+  display: block;
+  float: left;
+  margin: 30px;
+}
+.bandereau{
+    background-image: url("../im/Guadeloupe.jpg");
+    position: relative;
+    height: 580px;
+    width: 100%;
+    max-width: 100vw;
+    max-height: calc(100vh - 60px);
+    background-position: center;
+    background-size: cover;
+}
+.titre{
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  /*transform: translate(-50%, -50%);*/
+  color: white;
+  font: 400 70px/44px 'FFMetaWebBold', 'PT Sans', sans-serif;
+}
+.ib{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 0px;
+}
+.container1{
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-template-areas:
+  " a "
+  " b "
+  " c ";
+  column-gap: 30px;
+  row-gap: 30px;
+}
+/*.container, .container2, .infor{place-self: center;}*/
+.container{grid-area: a;}
+.container2 {grid-area: b;}
+.infor {grid-area: c;}
+.destination{
+  margin-top: 30px;
+}
+.para-d{
+  text-align: center;
+  font: 400 50px/44px 'FFMetaWebBold', 'PT Sans', sans-serif;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "a b c"
+  "d e f";
+  column-gap: 30px;
+  row-gap: 30px;
+}
+.a{grid-area: a;}
+.b{grid-area: b;}
+.c{grid-area: c;}
+.d{grid-area: d;}
+.e{grid-area: e;}
+.f{grid-area: f;}
+.ic1{
+  display: block;
+  border-radius: 50px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ic2{
+  width: 50%;
+  display: block;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.article{
+  margin-top: 40px;
+}
+.container2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "aa bb cc"
+  "dd ee ff";
+  column-gap: 30px;
+  row-gap: 30px;
+  text-align: center;
+}
+.aa{grid-area: aa;}
+.bb{grid-area: bb;}
+.cc{grid-area: cc;}
+.dd{grid-area: dd;}
+.ee{grid-area: ee;}
+.ff{grid-area: ff;}
+.t2{color: #3e6996;
+  font-size: large;}
+.infor{
+  background-color: #f2f4f5;
+  border-radius: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+button{
+  background-color: #ce548c;
+  border-radius: 50px;
+  padding: 20px;
+  font-size: large;
+  margin-left: 30px;
+}
+.titrei{font-size: 50px}
+.titre, .para-d, .titrei, li
+{text-transform: uppercase;}
+span{color: #d477a3;}
+p{ font-size: small;}
+.footer{
+  margin-top: 35px;
+  width: 100%;
+  background-color:black;
+  color: #57595a;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+}
+.ki, .contact{
+  margin-left: 10px;
+}
+.pfooter{font-size: large;}
+ul li:hover .sous{display: block;}
+.sous li {float: none;width: 100%; text-align: left;}
+.sous a{padding: 10px;border-bottom: none;}
+.deroulant >a::after{content:"▼";font-size: 10px;}
+.sous{
+  display: none;
+  box-shadow: 0px 1px 2px #CCC;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
+ul li{
+  list-style: none;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+a{text-decoration: none;}
