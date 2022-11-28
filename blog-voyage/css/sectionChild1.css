@@ -11,7 +11,7 @@
   .child{
     display: flex;
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     left: 25px;
   }
   .parent{

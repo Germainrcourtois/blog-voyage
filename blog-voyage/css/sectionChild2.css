@@ -20,7 +20,8 @@
   figcaption div{
     display: flex;
     color: var(--gris);
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   figcaption p {
     margin-top: 10px;

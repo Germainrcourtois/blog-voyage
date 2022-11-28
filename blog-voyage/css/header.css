@@ -32,17 +32,17 @@ header{
     width: 100%;
     text-align: center;
     color: white!important;
-    font-size: 22px!important;
-    opacity: 0.8;
+    font-size: 30px!important;
     letter-spacing: 22px;
     font-weight: bold;
     text-transform: uppercase;
   }
   
   h1  span{
-    font-size: 5em!important;
+    font-size: 90px!important;
     font-weight: bold;
     color: white ;
+    opacity: 0.8;
   }
   h2{
     text-transform: uppercase;
